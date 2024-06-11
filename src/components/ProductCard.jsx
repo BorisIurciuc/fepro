@@ -1,6 +1,5 @@
 import './productCard.css'
 
-
 function ProductCard(){
 
     const cardTitle = "Ferrari 296 GTB";

@@ -6,7 +6,7 @@ function Homework03() {
         <div>
             <ProductCard />
             <ProductCard />
-
+            <ProductCard />
         </div>
     )
 }
