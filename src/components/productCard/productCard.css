@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-image: url('../../public/images/Ferrari-facts-Cover-25-02-420x230.jpg');
+    background-image: url('../../../public/images/Ferrari-facts-Cover-25-02-420x230.jpg');
     background-size: cover; /* Изображение охватывает весь блок */
     background-position: center; /* Центрирование изображения */
     background-repeat: no-repeat; /* Запрет повторения изображения */

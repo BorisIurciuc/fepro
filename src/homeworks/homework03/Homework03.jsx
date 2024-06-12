@@ -1,11 +1,10 @@
-import ProductCard from "../../components/ProductCard";
+import ProductCard from "../../components/productCard/ProductCard";
+
 
 function Homework03() {
 
     return(
         <div>
-            <ProductCard />
-            <ProductCard />
             <ProductCard />
         </div>
     )

@@ -5,7 +5,7 @@ function ProductCard(){
     const cardTitle = "Ferrari 296 GTB";
     const cardImage ='https://cdn.motor1.com/images/mgl/OkpwL/s1/ferrari-296-gtb.jpg';
     const cardDescription = "Откройте новую эру скорости с Ferrari 296 GTB";
-    const availability = true;
+    const availability = false;
     const thereIs = "Спешите, на складе несколько экземпляров"
     const thereNot = "Товара нет на складе"
 
