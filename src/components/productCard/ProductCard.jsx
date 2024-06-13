@@ -1,21 +1,21 @@
 import './productCard.css'
-
 function ProductCard(){
-
-    const cardTitle = "Ferrari 296 GTB";
-    const cardImage ='https://cdn.motor1.com/images/mgl/OkpwL/s1/ferrari-296-gtb.jpg';
-    const cardDescription = "Откройте новую эру скорости с Ferrari 296 GTB";
-    const availability = false;
-    const thereIs = "Спешите, на складе несколько экземпляров"
-    const thereNot = "Товара нет на складе"
+    const productData = {
+        cardTitle: "Ferrari 296 GTB",
+        cardImage:'https://cdn.motor1.com/images/mgl/OkpwL/s1/ferrari-296-gtb.jpg',
+        cardDescription: "Откройте новую эру скорости с Ferrari 296 GTB",
+        availability: true,
+        thereIs: "Спешите, на складе несколько экземпляров",
+        thereNot: "Товара нет на складе"
+        }
 
     return (
         <div className="containerProduct">
             <h1>Наши предложения</h1>
-            <div className={availability ? 'containerProductYes' : 'containerProductNo'}>
-                <h2>{cardTitle}</h2>
-                <img src={cardImage} className='imgProduct' alt="ferrari"/>
-                <h4>{cardDescription}</h4>
+            <div className={productData.availability ? 'containerProductYes' : 'containerProductNo'}>
+                <h2>{productData.cardTitle}</h2>
+                <img src={productData.cardImage} className='imgProduct' alt="ferrari"/>
+                <h4>{productData.cardDescription}</h4>
                 <p className='descriptionProd'>
                     Позвольте себе ощутить неподдельный восторг от вождения с Ferrari 296 GTB — автомобилем, 
                     который воплощает в себе сочетание роскоши, инноваций и невероятной динамики.
@@ -27,8 +27,8 @@ function ProductCard(){
                 </p >
             </div>
             <div className='availability'>
-                <b><p className={availability ? 'textBlack' : 'textRed'}>
-                    {availability ? thereIs : thereNot}
+                <b><p className={productData.availability ? 'textBlack' : 'textRed'}>
+                    {productData.availability ? productData.thereIs : productData.thereNot}
                 </p></b>
             </div>
         </div>

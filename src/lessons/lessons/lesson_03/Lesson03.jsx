@@ -1,6 +1,5 @@
-import './lesson03.css';
-import Button from '../button/Button';
-
+import './style.css';
+import Button from '../../../components/button/Button';
 
 function Lesson03() {
   return (
