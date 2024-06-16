@@ -5,7 +5,7 @@ function MyButton({name, type}) {
     console.log(type)
     return(
         <div>
-            <button type={type} className='button'>{name}</button>
+            <button type={type} className='myButton'>{name}</button>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import './style.css';
-import Button from '../../../components/button/Button';
+import Button from '../../components/button/Button';
 
 function Lesson03() {
   return (

@@ -1,6 +1,6 @@
-import AnimalCard from "../../../components/animalCard/AnimalCard"
+import AnimalCard from '../../components/animalCard/AnimalCard'
 import { lionData, zebraData } from "./data"
-import Button from "../../../components/button/Button";
+import Button from "../../components/button/Button";
 
 function Lesson04() {
     console.log(lionData, zebraData);
