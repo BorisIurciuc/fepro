@@ -3,7 +3,6 @@ import { lionData, zebraData } from "./data"
 import Button from "../../components/button/Button";
 
 function Lesson04() {
-    console.log(lionData, zebraData);
     return (
         <div className="div">
             <h1>Lesson 04</h1>

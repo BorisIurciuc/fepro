@@ -8,15 +8,15 @@ function LoginForm() {
             <h3>Login form</h3>
                 <div className="loginForm">
                     <div className="inputForm">
-                        <Input name={'name'} type={'text'} placeholder={'your name'} label={'userName'}/>
+                        <Input name={'name'} type={'text'} placeholder={'your name'} label={'Name'}/>
                         <MyButton name={'Send name'} type={'submit'}/>
                     </div>
                     <div className="inputForm">
-                        <Input name={'email'} type={'text'} placeholder={'your email'} label={'uselEmail'}/>
+                        <Input name={'email'} type={'text'} placeholder={'your email'} label={'Email'}/>
                         <MyButton name={'Send email'} type={'submit'}/>
                     </div>
                     <div className="inputForm">
-                        <Input name={'password'} type={'text'} placeholder={'your password'} label={'uselPasswd'}/>
+                        <Input name={'password'} type={'password'} placeholder={'your password'} label={'Password'}/>
                         <MyButton name={'Send password'} type={'submit'}/>
                     </div>
                 </div>
