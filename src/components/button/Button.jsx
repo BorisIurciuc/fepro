@@ -1,14 +1,15 @@
-import './button.css'
+import './button.css';
 
-function Button({buttonText, isGetButton}) {
+function Button({ onClick, buttonText, buttonType }) {  
 
     return (
         <button 
-            className={`button ${isGetButton ?  'button-primary' : 'button-danger'}` }>
+            className={`button ${buttonType}`}  
+            onClick={onClick}
+        >
             {buttonText}
         </button>
-
-    )
+    );
 }
 
 export default Button;

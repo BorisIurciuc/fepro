@@ -8,8 +8,8 @@ function Lesson04() {
             <h1>Lesson 04</h1>
             <AnimalCard animalPropsData={lionData}/>
             <AnimalCard animalPropsData={zebraData}/>
-            <Button buttonText={'first'} isGetButton={true}/>
-            <Button buttonText={'second'} isGetButton={false}/>
+            <Button buttonText={'first'} buttonType={'button-primary'}/>
+            <Button buttonText={'second'} buttonType={'button-danger'}/>
         </div>
     )
 }
