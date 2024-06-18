@@ -1,9 +1,9 @@
 import './style.css'
-function DishProps ({dishData}) {
+function DishProps ({dishes, removeDish}) {
 
     return (
         <div className="divDishProps">
-            {dishData.map((dish) => (
+            {dishes.map((dish) => (
                 <li key={dish.id}>
                     <h3>{dish.name}</h3>
                     <p>{dish.description}</p>
@@ -17,6 +17,7 @@ function DishProps ({dishData}) {
                             </li>
                         ))}
                     </ol>
+                    <button onClick={() => removeDish(dish.id)}>remove</button>
                 </li>
             ))}
         </div>
